@@ -8,7 +8,7 @@ function NavigationBar() {
   return (
     <nav>
       <h2 className='navbar-title'>JFJ</h2>
-      <button className='main-button navbar-button'>Espace Menbres</button>
+      <button className='main-button navbar-button'>Espace Membres</button>
     </nav>
   );
 }

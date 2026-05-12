@@ -15,6 +15,8 @@
     --main-button-radius : 100px;
     --main-image-radius : 8px;
 
+    /* PADDING MARGIN */
+    --main-padding-large : 50px;
 }
 
 h1,h2,h3,h4,h5,h6,p,li,button{

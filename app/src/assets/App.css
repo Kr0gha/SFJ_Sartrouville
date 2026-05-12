@@ -1,3 +1,50 @@
-p{
-    color: black;
+.main-hero-section {
+  display: flex;
+  height: 800px;
+}
+
+.main-hero-image {
+  display: flex;
+  background-image: url("../media/hero-banner-mjc.png");
+  background-size: cover;
+  height: 100%;
+  width: 1400px;
+}
+
+.main-hero-adress {
+  display: flex;
+  align-items: center;
+  padding-left: var(--main-padding-large);
+  align-self: flex-end;
+  height: 170px;
+  width: inherit;
+  background-color: #f1f2f830;
+  color: var(--main-white);
+  font-size: 40px;
+  text-shadow: 1px 1px var(--main-dark-grey);
+}
+
+.main-calendar {
+  width: 520px;
+  background-color: var(--main-red);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding-bottom: var(--main-padding-large);
+
+  p {
+    text-shadow: 1px 1px var(--main-dark-grey);
+    color: var(--main-white);
+    font-size: 48px;
+    text-align: center;
+  }
+
+  /* Temporaire */
+  .main-calendar {
+    width: 318px;
+    height: 308px;
+    background-color: var(--main-white);
+  }
 }

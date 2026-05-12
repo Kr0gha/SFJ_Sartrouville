@@ -3,8 +3,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: var(--main-padding-large);
+    padding-right: var(--main-padding-large);
 
     border-bottom: 3px solid var(--main-light-grey);
 }
@@ -17,5 +17,6 @@ nav{
 }
 
 button{
+    text-shadow: 1px 1px var(--main-dark-grey);
     font-weight: 100;
 }
