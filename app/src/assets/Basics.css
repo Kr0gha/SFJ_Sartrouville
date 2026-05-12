@@ -19,9 +19,11 @@
     --main-padding-large : 50px;
 }
 
+
 h1,h2,h3,h4,h5,h6,p,li,button{
     font-family: "Alegreya Sans", sans-serif;
     font-style: normal;
+    text-shadow: 1px 1px var(--main-dark-grey);
 }
 
 .main-button{
