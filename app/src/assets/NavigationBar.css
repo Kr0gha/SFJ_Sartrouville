@@ -1,0 +1,21 @@
+nav{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border-bottom: 3px solid var(--main-light-grey);
+}
+
+.navbar-title{
+    font-family: "Anton";
+    font-weight: 400;
+    font-size: var(--main-title);
+    color: var(--main-red);
+}
+
+button{
+    font-weight: 100;
+}

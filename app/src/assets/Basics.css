@@ -1,0 +1,42 @@
+:root{
+    /* Color */
+    --main-red : #CC242E;
+    --main-dark-grey : #676C77;
+    --main-light-grey : #F1F2F8;
+    --main-white : #FAFAFA;
+
+    /* Text - FONT */
+    --main-title : 55px;
+    --sub-title : 32px;
+    --main-paragraphe : 22px;
+    --paragraphe : 18px;
+
+    /* Border Radius */
+    --main-button-radius : 100px;
+    --main-image-radius : 8px;
+
+}
+
+h1,h2,h3,h4,h5,h6,p,li,button{
+    font-family: "Alegreya Sans", sans-serif;
+    font-style: normal;
+}
+
+.main-button{
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: none;
+    color: var(--main-white);
+    font-weight: 400;
+    font-size: var(--main-paragraphe);
+    border-radius: var(--main-button-radius);
+    background-color: var(--main-red);
+    border: 3px solid var(--main-red);
+
+}
+
+.main-button:hover{
+    cursor: pointer;
+    background-color: #e42835;
+}
