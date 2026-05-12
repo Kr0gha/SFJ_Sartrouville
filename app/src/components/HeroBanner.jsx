@@ -1,13 +1,11 @@
 
 import React from 'react';
 import '../assets/Basics.css'
-import '../assets/App.css'
+import '../assets/HeroBanner.css'
 
 function HeroBanner() {
 
   return (
-    
-    <>
     <section className='main-hero-section'>
       <div className='main-hero-image'>\
         <p className='main-hero-adress'>
@@ -23,7 +21,6 @@ function HeroBanner() {
          de xx á xx</p>
       </div>
     </section>
-    </>
   );
 }
 
