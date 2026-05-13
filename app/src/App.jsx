@@ -1,10 +1,19 @@
 
-import React from 'react';
+import React, { Activity } from 'react';
 import NavigationBar from './components/NavigationBar';
 import './assets/Basics.css'
 import './assets/HeroBanner.css'
 import HeroBanner from './components/HeroBanner';
-import StatsBanner from './components/StatsBanner';
+import StorySection from './components/StorySection';
+import ActivitySection from './components/ActivitySection';
+
+import BannerComponents from './components/StepBanner';
+import EventSection from './components/EventSection';
+import PlaceSection from './components/PlaceSection';
+import FooterSection from './components/FooterSection';
+
+
+
 function App() {
 
   return (
@@ -12,7 +21,13 @@ function App() {
     <>
     <NavigationBar/>
     <HeroBanner/>
-    <StatsBanner/>
+    <BannerComponents.StepBannerNumber/>
+    <StorySection/>
+    <ActivitySection/>
+    <BannerComponents.StepBannerJoin/>
+    <EventSection/>
+    <PlaceSection/>
+    <FooterSection/>
     </>
   );
 }

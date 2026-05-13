@@ -1,0 +1,63 @@
+.statsBanner-section {
+  background-color: var(--main-light-grey);
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.statsBanner-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 33.33%;
+  background-color: var(--main-light-grey);
+}
+
+.statsBanner-paragraph {
+  text-align: center;
+  font-size: 48px;
+}
+
+.statsBanner-number {
+  font-size: 64px;
+  color: var(--main-red);
+  font-weight: 600;
+}
+
+.statsBanner-sideBar {
+  height: 150px;
+  width: 2px;
+  background-color: var(--main-dark-grey);
+}
+
+.statsBanner-section-white {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  height: 250px;
+
+  button {
+    margin-top: 5%;
+  }
+
+  div {
+    text-align: center;
+  }
+}
+
+.statsBanner-paragraph-join {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  text-shadow: none;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.statsBanner-section-title-number {
+  padding-left: var(--main-padding-large);
+  padding-top: var(--main-padding-large);
+  font-size: var(--main-title);
+  margin-bottom: 3%;
+}

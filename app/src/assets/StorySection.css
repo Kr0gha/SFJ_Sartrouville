@@ -1,0 +1,19 @@
+.main-story-section {
+  padding: var(--main-padding-large);
+
+  h1 {
+    font-size: var(--main-title);
+    font-weight: 500;
+    margin-bottom: 3%;
+  }
+
+  p {
+    margin-top: 1.5%;
+    font-size: var(--main-paragraphe);
+    font-weight: 400;
+    text-shadow: none;
+  }
+
+
+
+}
