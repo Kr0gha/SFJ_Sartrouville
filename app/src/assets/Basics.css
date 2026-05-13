@@ -6,9 +6,9 @@
     --main-white : #FAFAFA;
 
     /* Text - FONT */
-    --main-title : 55px;
+    --main-title : 50px;
     --sub-title : 32px;
-    --main-paragraphe : 22px;
+    --main-paragraphe : 20px;
     --paragraphe : 18px;
 
     /* Border Radius */
@@ -16,7 +16,7 @@
     --main-image-radius : 8px;
 
     /* PADDING MARGIN */
-    --main-padding-large : 50px;
+    --main-padding-large : 75px;
 }
 
 
@@ -40,7 +40,18 @@ h1,h2,h3,h4,h5,h6,p,li,button{
 
 }
 
+.main-button-white{
+    border: var(--main-white);
+    background-color: var(--main-white);
+    color: black;
+}
+
+
 .main-button:hover{
     cursor: pointer;
     background-color: #e42835;
+}
+
+.main-button-white:hover{
+    background-color: var(--main-light-grey);
 }

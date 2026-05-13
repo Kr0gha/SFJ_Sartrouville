@@ -1,11 +1,22 @@
-FROM node:20
+# Utilise une image Node.js officielle (version Alpine pour réduire la taille)
+FROM node:20-alpine
 
+# Définit le répertoire de travail
 WORKDIR /app
 
+# Copie les fichiers de configuration (package.json, vite.config.js)
 COPY package*.json ./
 COPY vite.config.js ./
-COPY . .
 
+# Installe les dépendances (y compris devDependencies)
 RUN npm install
 
-CMD ["npm", "run", "dev"]
+# Copie le reste des fichiers (src, public, etc.)
+COPY . .
+
+# 👇 OPTIONNEL : Si tu veux builder pour la production (au lieu de `npm run dev`)
+# RUN npm run build
+
+# Commande pour démarrer l'application en mode dev
+# 👇 Force Vite à écouter sur 0.0.0.0 pour Docker
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

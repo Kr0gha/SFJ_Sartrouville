@@ -1,4 +1,6 @@
 .main-activity-section {
+  display: flex;
+  flex-direction: column;
   padding: var(--main-padding-large);
   background-color: var(--main-light-grey);
 
@@ -10,28 +12,31 @@
   img {
     box-shadow: 2px 5px 9px -1px rgba(0, 0, 0, 0.44);
     background-color: white;
-    height: 425px;
-    width: 425px;
+    height: 300px;
+    width: 300px;
     border-radius: var(--main-image-radius);
   }
 }
 
 .main-activity-card {
   margin-top: 3%;
+  margin-left: var(--main-padding-large);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 425px;
+  height: 300px;
+  width: 70%;
 }
 
 .main-activity-card-reverse {
   flex-direction: row-reverse;
+  align-self: flex-end;
+  margin-right: var(--main-padding-large);
 }
 
 .main-activity-card-text {
   box-shadow: 2px 5px 9px -1px rgba(0, 0, 0, 0.44);
-
   height: 80%;
   padding-left: 3%;
   padding-right: 3%;

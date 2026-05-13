@@ -8,6 +8,9 @@ import StorySection from './components/StorySection';
 import ActivitySection from './components/ActivitySection';
 
 import BannerComponents from './components/StepBanner';
+import EventSection from './components/EventSection';
+import PlaceSection from './components/PlaceSection';
+import FooterSection from './components/FooterSection';
 
 
 
@@ -22,6 +25,9 @@ function App() {
     <StorySection/>
     <ActivitySection/>
     <BannerComponents.StepBannerJoin/>
+    <EventSection/>
+    <PlaceSection/>
+    <FooterSection/>
     </>
   );
 }
