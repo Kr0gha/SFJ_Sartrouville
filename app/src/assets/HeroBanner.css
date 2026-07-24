@@ -25,6 +25,7 @@
 }
 
 .main-calendar {
+  border-radius: var(--main-image-radius);
   width: auto;
   background-color: var(--main-red);
   display: flex;
