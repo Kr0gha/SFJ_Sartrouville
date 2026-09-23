@@ -252,6 +252,8 @@
                 background-color: var(--light-red-color);
                 color: white;
             }
+
+
         }
     }
 
@@ -368,7 +370,20 @@
 
 
 /* Mobile */
-@media screen and (min-width: 320px) and (max-width:767px) {}
+@media screen and (min-width: 320px) and (max-width:767px) {
+
+    .hp-section-join{
+        div{
+            div{
+                p{
+                    button{
+                        margin-top: 1rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
 
 /* Tablet */
 /* and (max-width:1024px) */
