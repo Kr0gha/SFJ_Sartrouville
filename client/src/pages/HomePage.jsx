@@ -21,7 +21,7 @@ function HomePage(){
                     <h2>Calendrier d’ouverture du Club</h2>
                     {/* Calendrier Google */}
                     <iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=1&ctz=Europe%2FParis&showPrint=0&showTitle=0&showNav=0&showTabs=0&showCalendars=0&showTz=0&src=YWZvaW4udGVzdC5kZXZAZ21haWwuY29t&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%230b8043"  frameBorder="0"></iframe>
-                    <p>Horaires : 20h30 á 01h00</p>
+                    <p>Joueur.s ou Visiteur.s rejoins-nous le vendredi de 20h00 a 01h00</p>
                 </div>
             </div>
 
@@ -82,8 +82,8 @@ function HomePage(){
                 <h3 className="hp-section-join-title">Rejoindre le club</h3>
                     <div>
                         <p className="hp-section-join-button">Rejoindre notre communauté via <button className="main-button" onClick={() => window.open("https://discord.gg/pjPhZ9Aahry","_blank")}>DISCORD</button></p>
-                        <p>Venir un Vendredi au Club en tant que joueur ou visiteurs</p>
-                        <p>Remplir le formulaire et payer son année</p>
+                        <p>Venir un Vendredi au Club en tant que joueurs ou visiteurs</p>
+                        <p>Remplir le formulaire et payer son année  <br /><button className="main-button button-red" onClick={() => window.open("https://discord.gg/pjPhZ9Aahry","_blank")}>Formulaire WIP</button></p>
                     </div>
                 </div>
             </div>
