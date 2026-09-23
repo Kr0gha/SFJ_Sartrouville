@@ -19,7 +19,7 @@ function App() {
         element={<HomePage/>}
         />
         <Route
-        path="/CGU"
+        path="/cgu"
         element={<CGU/>}
         />
       </Routes>

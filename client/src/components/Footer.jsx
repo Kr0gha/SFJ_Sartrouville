@@ -6,7 +6,7 @@ function NavBar() {
     <footer>
       <ul>
         <li><a href="/">Acceuil</a></li>
-        <li><a href="/CGU">Mentions légales</a></li>
+        <li><a href="/cgu">Mentions légales</a></li>
       </ul>
     </footer>
   );
