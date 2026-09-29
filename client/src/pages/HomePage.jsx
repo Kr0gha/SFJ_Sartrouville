@@ -21,7 +21,7 @@ function HomePage(){
                     <h2>Calendrier d’ouverture du Club</h2>
                     {/* Calendrier Google */}
                     <iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=1&ctz=Europe%2FParis&showPrint=0&showTitle=0&showNav=0&showTabs=0&showCalendars=0&showTz=0&src=YWZvaW4udGVzdC5kZXZAZ21haWwuY29t&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%230b8043"  frameBorder="0"></iframe>
-                    <p>Joueur.s ou Visiteur.s rejoins-nous le vendredi de 20h00 a 01h00</p>
+                    <p>Joueurs.euses ou Visiteurs rejoins-nous le vendredi de 20h00 a 01h00</p>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@ function HomePage(){
             <div className="hp-number">
                 <div><p><span>50+</span> <br /> Membres Actifs </p></div>
                 <div><p><span>20</span> <br />Saisons </p></div>
-                <div><p><span>19</span> <br />Événements </p></div>
+                <div><p><span>19</span> <br />Évènements </p></div>
             </div>
 
             {/* Section Activité */}
@@ -42,7 +42,7 @@ function HomePage(){
                 <div className="card-activity-shape">
                 <h3 className="card-activity-title">Wargame</h3>
                 {/* * TODO: fonction JS pour limiter le nombre de caractere a 200 - 3 et ajouter ... a la fin  */}
-                <p className="card-activity-paragraph">Plonge dans des combats épiques, de l'échelle d'armée aux petites escouades. de nombreux ennemis à vaincre et de lieux à découvrir </p>
+                <p className="card-activity-paragraph">Ici, chaque figurine est un héros. Des armées de milliers de guerriers aux escouades d'élite traquant leur butin dans les ruines, vos batailles racontent votre histoire. Ennemis légendaires, territoires hostiles, victoires mémorables : la table de jeu est à vous. </p>
                 </div>
                 {/* link vers une nouvelle pages prochainement */}
                 </div>
@@ -51,7 +51,7 @@ function HomePage(){
                 {/* IMG est un background */}
                 <div className="card-activity-shape">
                 <h3 className="card-activity-title">BoardGame</h3>
-                <p className="card-activity-paragraph">Viens vivre mille histoires : réhabilite une planète, trahis tes ami.es pour régner, ou unis-toi à eux pour vaincre un grand ennemi.</p>
+                <p className="card-activity-paragraph">Une table, des amis, mille destins. Sauvez un monde, trahissez vos proches, régnez ensemble ou l'un contre l'autre à vous d'écrire la fin. Tous les jeux, tous les joueurs.</p>
                 </div>
                 {/* link vers une nouvelle pages prochainement */}
                 </div>
@@ -60,7 +60,7 @@ function HomePage(){
                 {/* IMG est un background */}
                 <div className="card-activity-shape">
                 <h3 className="card-activity-title">TCG</h3>
-                <p className="card-activity-paragraph">Affronte d'autres joueurs en duel stratégique, construis ton deck et deviens une légende du jeu de cartes</p>
+                <p className="card-activity-paragraph">Construis ton deck, déjoue tes adversaires, écris ta légende. Du duel stratégique aux formats les plus inattendus, chaque carte est une arme, chaque partie un pas vers la gloire.</p>
                 </div>
                     {/* link vers une nouvelle pages prochainement */}
                 </div>
@@ -69,7 +69,7 @@ function HomePage(){
                 {/* IMG est un background */}
                 <div className="card-activity-shape">
                 <h3 className="card-activity-title">Peinture</h3>
-                <p className="card-activity-paragraph">Apprends à peindre tes miniatures, partage tes techniques et révèle l'artiste qui sommeille en toi !</p>
+                <p className="card-activity-paragraph">Apprends. Partage. Peins. De la sous-couche au vernis final, progresse entouré de peintres passionnés, de ton premier highlander à tes plus belles conversions.</p>
                 </div>
                     {/* link vers une nouvelle pages prochainement */}
                 </div>
@@ -83,7 +83,7 @@ function HomePage(){
                     <div>
                         <p className="hp-section-join-button">Rejoindre notre communauté via <button className="main-button" onClick={() => window.open("https://discord.gg/pjPhZ9Aahry","_blank")}>DISCORD</button></p>
                         <p>Venir un Vendredi au Club en tant que joueurs ou visiteurs</p>
-                        <p>Remplir le formulaire et payer son année  <br /><button className="main-button button-red" onClick={() => window.open("https://discord.gg/pjPhZ9Aahry","_blank")}>Formulaire WIP</button></p>
+                        <p>Remplir le formulaire et rejoins officiellement le club <br /><button className="main-button button-red" onClick={() => window.open("https://discord.gg/pjPhZ9Aahry","_blank")}>Formulaire WIP</button></p>
                     </div>
                 </div>
             </div>
